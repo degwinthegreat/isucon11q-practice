@@ -1,0 +1,32 @@
+# Logfile created on 2023-11-12 21:40:19 +0900 by logger.rb/v1.4.3
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Starting the New Relic agent version 9.6.0 in "production" environment.
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Reading configuration from newrelic.yml (/home/isucon/webapp/ruby)
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Environment: production
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Dispatcher: puma
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Application: isucon11q
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Deferring startup of agent reporting thread because puma may fork.
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing Fiber instrumentation
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing Logger instrumentation
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing Net:HTTP Wrappers
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing Sinatra instrumentation
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing Thread Instrumentation
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing Tilt instrumentation
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Finished instrumentation
+[2023-11-12 21:40:19 +0900 isucon11q (238713)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-11-12 21:41:11 +0900 isucon11q (238713)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3527026/applications/1499915537
+[2023-11-12 21:41:12 +0900 isucon11q (238713)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2023-11-13 10:26:41 +0900 isucon11q (238713)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3527026/applications/1499915537
+[2023-11-14 19:41:14 +0900 isucon11q (238713)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3527026/applications/1499915537
+[2023-11-15 20:01:11 +0900 isucon11q (238713)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3527026/applications/1499915537
+[2023-11-16 15:13:26 +0900 isucon11q (238713)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3527026/applications/1499915537
